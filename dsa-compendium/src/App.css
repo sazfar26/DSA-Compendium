@@ -1,0 +1,91 @@
+h1 {
+  padding-top: 200px;
+  font-size: 8em;
+  color: black;
+  text-align: center;
+  animation-name: falldown;
+  animation-duration: 2s;
+}
+
+h2 {
+  font-size: 3em;
+  color: black;
+  text-align: center;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #C7FFD8;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 15px 32px;
+  text-align: center; 
+  text-decoration: none;  
+  display: inline-block;
+  font-size: 20px;
+  width: 15%;
+  animation-name: fadein;
+  animation-duration: 3s;
+}
+
+button:hover {
+  background-color: #45a049;
+  color: #E8FAEA;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.disappear {
+  animation-name: fadeout;
+  animation-duration: 2s;
+}
+
+@keyframes falldown {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  80% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes fallup {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+  
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeout {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
