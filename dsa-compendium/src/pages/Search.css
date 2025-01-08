@@ -1,4 +1,24 @@
 .search {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    height: 100vh;
     background-color: #E8FAEA;
+}
+
+#searchTitle {
+    padding-top: 95px;
+    font-size: 3em;
+    color: black;
+    text-align: center;
+}
+
+.searchbar {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    font-size: 40px;
+    margin-top: 25px;
+    width: 40%;
 }
