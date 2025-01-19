@@ -17,8 +17,42 @@
 .searchbar {
     display: flex;
     justify-content: center;
-    height: 200px;
-    font-size: 40px;
+    height: 150px;
+    font-size: 70px;
     margin-top: 25px;
     width: 40%;
+}
+
+.searchbar::placeholder {
+    opacity: 0.3;
+    animation: fadeOut 500ms;
+}
+
+.disappear {
+    animation-name: fadeAway;
+    animation-duration: 500ms;
+}
+
+.reappear {
+    animation-name: fadeIn;
+    animation-duration: 20ms;
+}
+
+@keyframes fadeAway {
+    from {
+        opacity: .3;
+    }
+    to {
+        opacity: 0;
+    }
+    
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: .3;
+    }
 }
