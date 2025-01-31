@@ -7,11 +7,35 @@
     background-color: #E8FAEA;
 }
 
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
 #searchTitle {
     padding-top: 95px;
     font-size: 3em;
     color: black;
     text-align: center;
+}
+
+.searchButton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 70px;
+    width: 15%;
+    height: 150px;
+    animation: none;
+    margin-top: 25px;
+    padding: 10px;
 }
 
 .searchbar {
@@ -20,7 +44,7 @@
     height: 150px;
     font-size: 70px;
     margin-top: 25px;
-    width: 40%;
+    width: 100%;
 }
 
 .searchbar::placeholder {

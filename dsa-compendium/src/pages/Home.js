@@ -15,13 +15,14 @@ function Home() {
 
     return (
         <div className="home">
-        <div className="title">
-        <h1>
-        DSA COMPENDIUM
-        </h1>
-        </div>
+          <div className="title">
+            <h1>
+            DSA COMPENDIUM
+            </h1>
+          </div>
         <div className="container">
-        <Link to="/search" className="button-link" onClick={handleButtonClick}>Get Started</Link>        </div>
+          <Link to="/search" className="button-link" onClick={handleButtonClick}>Get Started</Link>
+        </div>
         <div style={{height: "300px"}}></div>  
         </div>
     )

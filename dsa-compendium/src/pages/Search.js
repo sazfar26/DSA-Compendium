@@ -29,7 +29,6 @@ function Search() {
         for (let j = 0; j < topics.length; j++) {
             let randomIndex = Math.floor(Math.random() * topics.length);
             setTimeout(() => {
-
                 searchBar.placeholder = topics[randomIndex];
             }, 2600 * j);
         }
@@ -43,9 +42,12 @@ function Search() {
 
     return (
         <div className="search">
-        <div id="searchTitle"><h1>What topic do you <br /> need help with?</h1></div>
-        <input type="text" className="searchbar" placeholder="Stacks"></input>
-        <div style={{height: "800px"}}></div>
+            <div id="searchTitle"><h1>What topic do you <br /> need help with?</h1></div>
+            <div className="search-container">
+                <input type="text" className="searchbar" placeholder="Stacks"></input>
+                <button type="submit" class="searchButton">GO</button>
+            </div>
+            <div style={{height: "800px"}}></div>
         </div>
     )
 }
