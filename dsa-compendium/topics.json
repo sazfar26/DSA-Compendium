@@ -1,0 +1,78 @@
+[
+    {
+        "name": "Arrays & ArrayLists",
+        "type": "data-structure"
+    },
+    {
+        "name": "Hash Maps & Hashing",
+        "type": "data-structure"
+    },
+    {
+        "name": "Linear Data Structures",
+        "type": "data-structure"
+    },
+    {
+        "name": "Bags & Sets",
+        "type": "data-structure"
+    },
+    {
+        "name": "Stacks & Queues",
+        "type": "data-structure"
+    },
+    {
+        "name": "Linked Lists",
+        "type": "data-structure"
+    },
+    {
+        "name": "Binary Trees",
+        "type": "data-structure"
+    },
+    {
+        "name": "Graphs",
+        "type": "data-structure"
+    },
+    {
+        "name": "Arrays & ArrayLists",
+        "type": "data-structure"
+    },
+    {
+        "name": "Linear/Sequential Search",
+        "type": "algorithm"
+    },
+    {
+        "name": "Binary Search",
+        "type": "algorithm"
+    },
+    {
+        "name": "Binary Tree Traversals",
+        "type": "algorithm"
+    },
+    {
+        "name": "Graph Traversals",
+        "type": "algorithm"
+    },
+    {
+        "name": "Djikstra's Shortest Path",
+        "type": "algorithm"
+    },
+    {
+        "name": "Min Spanning Tree",
+        "type": "algorithm"
+    },
+    {
+        "name": "Generics",
+        "type": "data-structure"
+    },
+    {
+        "name": "Arrays & ArrayLists",
+        "type": "data-structure"
+    },
+    {
+        "name": "Big O/Algorithmic Analysis",
+        "type": "other"
+    },
+    {
+        "name": "Recursion",
+        "type": "other"
+    }
+]
