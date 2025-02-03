@@ -6,6 +6,8 @@ import "./Search.css";
 
 function Search() {
 
+
+    
     //this will render the the text above the search bar, as well as pick a random suggestion topic from the array
     let searchBar = document.querySelector(".searchbar");
     const renderText = (element) => {
@@ -50,6 +52,10 @@ function Search() {
             <div style={{height: "800px"}}></div>
         </div>
     )
+
+    async function getTopicData() {
+        const 
+    }
 }
 
 export default Search;
