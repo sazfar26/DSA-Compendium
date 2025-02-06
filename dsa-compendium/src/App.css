@@ -19,8 +19,6 @@ button {
   display: inline-block;
   font-size: 20px;
   width: 15%;
-  animation-name: fadein;
-  animation-duration: 3s;
 }
 
 button:hover {

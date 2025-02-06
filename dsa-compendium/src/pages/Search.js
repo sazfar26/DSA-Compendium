@@ -4,10 +4,21 @@ import { useState } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./Search.css";
 
+
 function Search() {
-
-
     
+    let topicNames = [];
+    //this function will retrieve the list of topics from the topics.json file
+    async function getTopicData() {
+        const response = await fetch("https://raw.githubusercontent.com/sazfar26/DSA-Compendium/refs/heads/main/dsa-compendium/topics.json");
+        const data = await response.json(); //JSON arrray with all of the topics
+        topicNames = data.map((topic) => {
+            return topic.name;
+        });
+
+    }
+    
+    getTopicData();    
     //this will render the the text above the search bar, as well as pick a random suggestion topic from the array
     let searchBar = document.querySelector(".searchbar");
     const renderText = (element) => {
@@ -49,13 +60,25 @@ function Search() {
                 <input type="text" className="searchbar" placeholder="Stacks"></input>
                 <button type="submit" class="searchButton">GO</button>
             </div>
+            <ul className="autocomplete-list">
+                <li>
+                    <button className="suggestion-item">Item</button>
+                </li>
+                <li>
+                    <button className="suggestion-item">Item</button>
+                </li>
+                <li>
+                    <button className="suggestion-item">Item</button>
+                </li>
+                <li>
+                    <button className="suggestion-item">Item</button>
+                </li>
+            </ul>
             <div style={{height: "800px"}}></div>
         </div>
     )
 
-    async function getTopicData() {
-        const 
-    }
+
 }
 
 export default Search;

@@ -47,6 +47,27 @@
     width: 100%;
 }
 
+.autocomplete-list button {
+    width: 100%;
+    background-color: white;
+    color: black;
+    border: unset;
+    background: unset;
+}
+
+.autocomplete-list button:hover {
+    background-color: rgb(184, 181, 181);
+}
+
+.autocomplete-list {
+    list-style: none;
+    padding: unset;
+    margin: unset;
+}
+
+.autocomplete-list li {
+    border: 1px solid black;
+}
 .searchbar::placeholder {
     opacity: 0.3;
     animation: fadeOut 500ms;
